@@ -61,10 +61,15 @@ h4 {
   padding: 1rem;
   transition: all 0.2s ease;
 }
-.nav-elements h2:hover {
+
+.navbar-brand:hover {
   font-style: italic;
+  transform: translateX(5px);
+  font-weight: bold;
 }
-.nav-links li:hover {
+
+.nav-item:hover {
+  font-style: italic;
   transform: translateX(5px);
   font-weight: bold;
 }
